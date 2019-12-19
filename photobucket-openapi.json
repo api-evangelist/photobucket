@@ -1,0 +1,16 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "v1",
+        "title": "Photobucket",
+        "description": "The Photobucket API allows you to create an interface to talk to the Photobucket web site. This means that users do not have to leave your site to perform certain actions on the Photobucket site.",
+        "termsOfService": "http:\/\/photobucket.com\/terms"
+    },
+    "servers": [
+        "httpapi.photobucket.com\/"
+    ],
+    "paths": [],
+    "components": {
+        "schemas": []
+    }
+}

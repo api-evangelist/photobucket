@@ -1,0 +1,85 @@
+{
+    "name": "Photobucket",
+    "description": "Welcome to Photobucket's Facebook page! Keep up with site updates, special deals and promotions, enter to win cool prizes, browse photos from the Photobucket community and more!     For technical support, account questions and site issues, please email...",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/455-photobucket.jpg",
+    "tags": [
+        "have api",
+        "images",
+        "photos"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/photobucket\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Photobucket",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/455-photobucket.jpg",
+            "humanURL": "http:\/\/photobucket.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/photobucket-openapi.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Base",
+            "url": "http:\/\/api123.photobucket.com\/"
+        },
+        {
+            "type": "Blog",
+            "url": "http:\/\/blog.photobucket.com"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "http:\/\/photobucket.com\/developer\/forum?feed,1,type=rss"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/photobucket"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "http:\/\/www.crunchbase.com\/company\/photobucket"
+        },
+        {
+            "type": "Developers",
+            "url": "http:\/\/photobucket.com\/developer"
+        },
+        {
+            "type": "Email",
+            "url": "support@photobucket.com"
+        },
+        {
+            "type": "Email",
+            "url": "abuse@photobucket.com"
+        },
+        {
+            "type": "Email",
+            "url": "tou@Photobucket.com"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/Photobucket"
+        },
+        {
+            "type": "Pricing",
+            "url": "http:\/\/photobucket.com\/pricing"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/#!\/photobucket"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/photobucket.com"
+        }
+    ]
+}

@@ -1,8 +1,26 @@
 aid: photobucket
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/photobucket.png
 name: Photobucket
-description: 'Photobucket is a company surfaced as a portfolio company of trinity-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Photobucket is a consumer image and video hosting service founded in 2003 and
+  now operated by Photobucket Inc. of Seattle. It provides cloud photo/video storage, organization,
+  and private group sharing through subscription plans (My Bucket and +Group Buckets, each
+  including 1TB of storage) alongside a free tier. Historically one of the largest image-hosting
+  platforms on the early social web, Photobucket opened a public developer API in 2008, but no
+  current public/documented API surface could be found during enrichment: the developer portal is
+  bot-blocked, the GitHub organization holds only forks and hiring challenges (no official SDK), and
+  the app runs as a single-page application with no published /.well-known/ discovery documents.
+  Added to the API Evangelist network as a portfolio company of Trinity Ventures.'
 url: https://raw.githubusercontent.com/api-evangelist/photobucket/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Photo Sharing
+- Image Hosting
+- Video Sharing
+- Cloud Storage
+- Media
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/photobucket-domain-security.yml
 - type: Website
   url: https://photobucket.com
+- type: SignUp
+  url: https://app.photobucket.com/signup
+- type: Login
+  url: https://app.photobucket.com/login
+- type: Pricing
+  url: https://photobucket.com/plans
+- type: Support
+  url: https://support.photobucket.com/hc/en-us
+- type: TermsOfService
+  url: https://photobucket.com/legal/terms-of-service
+- type: PrivacyPolicy
+  url: https://photobucket.com/legal/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/Photobucket
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
